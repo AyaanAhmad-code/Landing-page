@@ -30,6 +30,10 @@ h1{
    color: #FFFACD;
    font-weight: 200;
 }
+h1:hover{
+    color: #EC7D2C;
+    transform: scale(1.07);
+}
 
 button{
     padding: 15px 30px;
@@ -40,4 +44,9 @@ button{
     font-family: stair;
     border: 3px solid #50382A;
     border-radius: 10px;
+}
+button:hover{
+    color:#50382A;
+    background-color: #ce5c0a;
+    transform: scale(1.05);
 }
